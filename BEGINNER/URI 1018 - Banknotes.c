@@ -7,7 +7,7 @@ int main()
 
     /* required input */
     scanf("%d", &N);
-    printf("%d\n", N);
+    printf("%d\n", N); /* this line needs to execute first to show the input value 1st. C codes execute 1st to last line by line..*/
 
     /* calculation */
     hundred = N/100;
